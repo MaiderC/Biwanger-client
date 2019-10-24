@@ -17,9 +17,11 @@ public class clsController
 
     }
 
-    public inicioSesion(email, password)
+    public String inicioSesion(email, password)
     {
+        String resultado = "";
         //sl.getservice.inicioSesion(email, password)
+        return resultado;
     }
 
 }

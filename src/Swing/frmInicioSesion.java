@@ -163,12 +163,17 @@ public class frmInicioSesion extends JFrame implements ActionListener
                 }
                 else
                 {
-                    boolean inicio = true;
-                    // boolean inicio = controller.inicioSesion(email, password);
+                    String inicio = "";
+                    // inicio = controller.inicioSesion(email, password);
                     // Ventana principal ventana.setVisible(true);
-                    if(inicio == true)
+                    if(inicio.equals("ADMIN"))
                     {
                         this.setVisible(false);
+                        //Abrir ventana de Admin
+                    }
+                    else if(inicio.equals("USUARIO"))
+                    {
+                        //Abrir ventana de ese usuario
                     }
                     else
                     {
