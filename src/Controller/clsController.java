@@ -17,4 +17,9 @@ public class clsController
 
     }
 
+    public inicioSesion(email, password)
+    {
+        //sl.getservice.inicioSesion(email, password)
+    }
+
 }
